@@ -1,0 +1,27 @@
+{
+  "name": "multipartupload",
+  "version": "1.0.0",
+  "description": "A file upload example using multipart.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hemants/multiPartUpload.git"
+  },
+  "author": "HemantS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hemants/multiPartUpload/issues"
+  },
+  "homepage": "https://github.com/hemants/multiPartUpload#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "express": "^4.15.4",
+    "multer": "^1.3.0",
+    "path": "^0.12.7",
+    "randomstring": "^1.1.5"
+  }
+}
